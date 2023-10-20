@@ -1,0 +1,526 @@
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    background: #1A191A;
+}
+/* font*/
+@font-face {
+    font-family:American Captain;
+    src: url('./American Captain.ttf');
+
+}
+.section-background{
+background: linear-gradient(90deg, rgba(0, 9, 26, 0.45) 32.41%,
+ rgba(0, 0, 0, 0.00) 65.08%),
+url('./image/Background.png'),
+lightgray 50% / cover no-repeat;
+height: 900px;
+}
+
+.prime-car{
+   color: #FFF;
+   font-family:American Captain;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.nav-divider{
+display: flex;
+width:full;
+padding: 32px 100px;
+justify-content: space-between;
+align-items: center;
+}
+.prime-menu{
+
+}
+.menu-items{
+display: flex;
+align-items: flex-start;
+gap: 40px;
+list-style: none;
+}
+.menu-items li a{
+list-style:none;
+color: #FFF;
+font-family: SF Pro Display;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-decoration: none;
+}
+.btn-default{
+color: #FFF;
+font-family: SF Pro Display;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+border-radius: 8px;
+border: 2px solid #FFF;
+display: flex;
+padding: 8px 32px;
+align-items: flex-start;
+gap: 10px;
+background: none;
+}
+.bannas-container{
+display: inline-flex;
+flex-direction: column;
+align-items: flex-end;
+gap: 4px;
+display: flex;
+margin-right: 70px;
+}
+.more-economy{
+ color: #FFF;
+text-align: right;
+text-shadow: 0px 0px 50px rgba(0, 0, 0, 0.25);
+font-family:American Captain;
+font-size: 130px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.more-economy-container{
+    width: 700%;
+}
+.banner-description-container{
+    width: 300px;
+    margin-bottom:15px;
+    margin-top:20px;
+}
+.banner-description{
+color: #FFF;
+text-align: right;
+font-family: SF Pro Display;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+}
+
+/*.banner-button{
+display: flex;
+padding: 12px 28px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+border: 2px solid #FFF;
+background-image: none;
+background: none;
+} */
+.about-us-container{
+    position: relative;
+}
+.about-us-title{
+color: #FFF;
+text-align: center;
+text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+font-family: American Captain;
+font-size: 130px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.about-us {
+display: flex;
+padding: 0px 100px;
+justify-content: space-between;
+align-items: center;
+}
+.about-us p{
+color: #FFF;
+font-family: SF Pro Display;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.about-us-image{
+width:650px;
+height: 416px;
+flex-shrink: 0;
+}
+.about-us-description{
+width: 500px;
+flex-shrink: 0;
+}
+
+.about-content{
+color: #373737;
+font-family: SF Pro Display;
+font-size: 140px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: lowercase;
+opacity: 0.3;
+position:absolute;
+margin-left:958px;
+margin-top:-66px;
+
+}
+.benefits{
+    background: #1A191A;
+    margin-top:70px;
+    
+}
+.benefit-title {
+width: 1284px;
+height: 193px;
+text-align: center;
+margin:0 auto;
+
+}
+.benefit-title h1 {
+color: #FFF;
+text-align: center;
+text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+font-family: American Captain;
+font-size: 70px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.benefit-description{
+
+}
+.benefit-description p{
+color: #FFF;
+font-family: SF Pro Display;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.benefit-about{
+    display: flex;padding: 0px 34px 35px 34px;justify-content: space-around;
+    align-items: center;
+    margin-top:50px;
+}
+.benefit-about-one{
+ border-radius: 16px;
+ background: rgba(0, 221, 168, 0.50);
+ position:relative;
+ padding: 24px;
+ height: 217px;
+}
+.benefit-about-one h4{
+color: #FFF;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+}
+.benefit-about-one p{
+color: #FFF;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.benefit-about-one img{
+ display: flex;
+ width: 120px;
+ height: 120px;
+ padding: 13.05px 33.93px 15.66px 33.93px;
+ justify-content: center;
+ align-items: center;
+ /* flex-shrink: 0; */
+ margin-left: 20%;
+ margin-top: -70px;
+}
+.benefit-about-three{
+border-radius: 16px;
+background: rgba(0, 88, 221, 0.60);
+}
+.benefit-about-tow{
+border-radius: 16px;
+background: rgba(207, 41, 41, 0.60);
+}
+
+
+/*ggg*/
+.container {
+  position: relative;
+  width: 453px;
+  height: 216px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.5s ease;
+}
+
+.container:hover .overlay {
+  display: block;
+  background: rgba(0, 0, 0, .3);
+}
+
+.container img {
+  position: absolute;
+  width: 453px;
+  height: 216px;
+  left: 0;
+}
+.gallery-description h4{
+color: #FFF;
+font-family: SF Pro Display;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal; 
+}
+.gallery-description p{
+color: #FFF;
+font-family: SF Pro Display;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;; 
+}
+.gallery-description {
+  position: absolute;
+  width: 500px;
+  /* left:0; */
+  top: 64px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease;
+  margin-left: -23px;
+}
+
+.container:hover .gallery-description {
+  opacity: 1;
+}
+
+.btn-contact {
+padding: 8px 28px;
+gap: 10px;
+border-radius: 8px;
+border: 2px solid #FFF;
+background:none;
+color: #fff;
+margin-top:5px;
+}
+
+.gallery-one{
+    display: flex;
+    grid-columns:3;
+    align-items: center;
+    justify-content: center;
+}
+.glary-title{
+color: #FFF;
+text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+font-family: American Captain;
+font-size: 70px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left:78px;
+margin-top:50px;
+}
+.glary-detail{
+color: #FFF;
+font-family: SF Pro Display;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left:78px;
+margin-bottom:50px;
+}
+
+
+/* Power Section*/
+.power-section{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.power-section-title{
+    color: #FFF;
+text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+font-family: American Captain;
+font-size: 80px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.power-section-detail{
+color: #FFF;
+font-family: SF Pro Display;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.res-image{
+display: flex;
+justify-content:center;
+align-items:center;
+}
+.res-image img{
+ width: 1200px;
+height: 500px;
+
+}
+
+.popover-content{
+position: relative;
+}
+.popover-content-image2{
+position:absolute;
+margin-left: 1146px;
+margin-top: -209px;
+}
+.contact-us-section{
+margin-top:20px;
+display: flex;
+padding: 0px 100px;
+justify-content: space-between;
+align-items: center;
+background: #161616;
+}
+.contact-us-section-description h1{
+color: #FFF;
+font-family: American Captain;
+font-size: 120px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.contact-us-section-description p{
+color: #FFF;
+font-family: SF Pro Display;
+font-size: 30.08px;
+font-style: normal;
+font-weight: 400;
+line-height: 50px; /* 166.223% */
+}
+
+.from-input{
+fill: #F2F2F2;
+stroke-width: 1px;
+stroke: #F2F2F2;
+width: 303.632px;
+background:none;
+outline: none;
+}
+
+
+.login-box .user-box {
+  position: relative;
+}
+
+.login-box .user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+.login-box .user-box label {
+  position: absolute;
+  top:0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label {
+  left: 0;
+  color: #03e9f4;
+  font-size: 12px;
+}
+.login-section{
+    display: flex;
+align-items: flex-start;
+gap: 50px;
+}
+
+.map{
+    margin-top: 50px;
+}
+/*footter*/
+
+.footer-prime-car{
+    color: #FFF;
+font-family: American Captain;
+font-size: 60px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.footer-section{
+ display: flex;
+justify-content: space-between;
+align-items: flex-start;
+align-self: stretch;
+padding: 50px;
+}
+.footer-section ul {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+list-style: none;
+color: #BDBDBD;
+}
+.footer-section p {
+color: #FFF;
+font-family: SF Pro Display;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 91.429% */
+letter-spacing: -0.665px;
+text-transform: capitalize;
+margin-bottom:10px;
+margin-top:20px;
+}
+
+.copyright {
+    display: flex;
+justify-content: space-between;
+align-items: flex-start;
+align-self: stretch;
+color: #FFFFFF;
+padding:20px 70px;
+}
+
+.popover-content-image1 img{
+    position: absolute;
+    margin-left:-54px;
+    width:187px;
+    margin-top:-84px;
+}
